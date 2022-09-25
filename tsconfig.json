@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "esnext",
+        "sourceMap": true,
+        "lib": ["esnext"],
+        "moduleResolution": "NodeNext",
+        "outDir": "dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+    },
+    "exclude": ["node_modules"],
+    "include": ["src", "env.d.ts"]
+}
