@@ -1,8 +1,8 @@
-import { ethers } from "ethers";
-import { tokens, abiErc20, Data } from "./constants";
-import { Contract, ContractCall, Provider } from "ethers-multicall";
 import dotenv from "dotenv";
+import { ethers } from "ethers";
+import { Contract, ContractCall, Provider } from "ethers-multicall";
 import path from "path";
+import { abiErc20, Data, tokens } from "./constants";
 
 dotenv.config({
   path: path.normalize(path.join(path.dirname(__dirname) + "/.env")),
